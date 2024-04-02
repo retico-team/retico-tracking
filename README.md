@@ -1,7 +1,7 @@
 # retico-tracking
 Contains retico modules for handtracking and posetracking that use the Google MediaPipe libraries. The modules can use a standard webcam or the Mistyrobotics Misty II robot's camera as visual input.
 
-The following example is set up to do handtracking with a webcam. This can be easily changed using the code that is commented out.
+The following example is set up to do handtracking with a webcam. The commented out code can be used to switch the type of tracking and camera.
 ### Example
 ```import os, sys
 prefix = '/prefix/path/'
